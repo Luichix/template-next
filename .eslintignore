@@ -1,0 +1,7 @@
+node_modules
+.next
+.husky
+public
+yarn.lock
+next.config.js
+jest.config.js

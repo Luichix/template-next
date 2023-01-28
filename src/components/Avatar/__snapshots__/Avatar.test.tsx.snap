@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot atoms avatar 1`] = `
+<img
+  src="https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/10.png"
+  style={
+    {
+      "borderRadius": "35px",
+      "height": "68px",
+      "marginRight": "10px",
+      "width": "68px",
+    }
+  }
+/>
+`;

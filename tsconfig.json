@@ -16,9 +16,20 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@Components/*": ["src/components/*"],
+      "@Contexts/*": ["src/contexts/*"],
+      "@Data/*": ["src/data/*"],
+      "@Hooks/*": ["src/hooks/*"],
+      "@Interfaces/*": ["src/interfaces/*"],
+      "@Redux/*": ["src/redux/*"],
+      "@Pages/*": ["src/pages/*"],
+      "@Services/*": ["src/services/*"],
+      "@Styles/*": ["src/styles/*"],
+      "@Utils/*": ["src/utils/*"],
+      "@Assets/*": ["assets/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "environment.d.ts"],
   "exclude": ["node_modules"]
 }
